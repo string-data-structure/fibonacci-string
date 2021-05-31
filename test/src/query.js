@@ -2,14 +2,15 @@ import test from 'ava';
 
 import {enumerate} from '@iterable-iterator/zip';
 
-import {query} from '../../src/index.js';
+import {query, makeIndex} from '../../src/index.js';
 
 import {makeSymbol, type, typen, repr} from './_fixtures.js';
 
 const symbol = makeSymbol({a: 'a', b: 'b'});
 
 const macro = (t, type, i, expected) => {
-	t.is(symbol(query(type, undefined, i)), expected);
+	const F = makeIndex(type, i);
+	t.is(symbol(query(F, i)), expected);
 };
 
 macro.title = (title, _, i, expected) =>

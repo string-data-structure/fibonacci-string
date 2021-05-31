@@ -39,7 +39,7 @@ export const gs = function* ({a, b}, n) {
 
 	const F = Array.from(take(gen(iadd, a.length, a.length + b.length), n - 1));
 	const Fn = F.pop();
-	for (const i of range(Fn)) yield query(undefined, F, i);
+	for (const i of range(Fn)) yield query(F, i);
 };
 
 export const makeSymbol = ({a, b}) => {

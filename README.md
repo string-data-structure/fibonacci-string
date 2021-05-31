@@ -12,23 +12,25 @@ See [docs](https://string-data-structure.github.io/fibonacci-string/index.html).
 > [regenerator-runtime/runtime](https://www.npmjs.com/package/regenerator-runtime).
 
 ```js
-import {build} from '@string-data-structure/fibonacci-string';
+import {makeIndex, query} from '@string-data-structure/fibonacci-string';
 
-const f = build({iadd: (x, y) => x+y, zero: () => 1, one: () => 1});
+const F = makeIndex({iadd: (x, y) => x+y, zero: () => 1, one: () => 2}, 10);
 
-f(0); // 1
-f(1); // 0
-f(2); // 1
-f(3); // 1
-f(4); // 0
-f(5); // 1
-f(6); // 0
-f(7); // 1
-f(8); // 1
-f(9); // 0
+query(F, 0); // 0
+query(F, 1); // 1
+query(F, 2); // 0
+query(F, 3); // 0
+query(F, 4); // 1
+query(F, 5); // 0
+query(F, 6); // 1
+query(F, 7); // 0
+query(F, 8); // 0
+query(F, 9); // 1
+query(F, 10); // 0
 
-const fn = build({iadd: (x, y) => x+y, zero: () => 1n, one: () => 1n});
-f(4802349082340928340983n); // 0
+const Fn = makeIndex({iadd: (x, y) => x+y, zero: () => 1n, one: () => 2n}, 10n**100n);
+query(Fn, 4802349082340928340983n); // 1n
+query(Fn, 123456748023490823409283409834802349082340928340983n); // 0n
 ```
 
 [![License](https://img.shields.io/github/license/string-data-structure/fibonacci-string.svg)](https://raw.githubusercontent.com/string-data-structure/fibonacci-string/main/LICENSE)
