@@ -1,0 +1,17 @@
+{
+  "coverage": "100%",
+  "expectCount": 2,
+  "actualCount": 2,
+  "files": {
+    "src/gen.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/makeIndex.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    }
+  }
+}
