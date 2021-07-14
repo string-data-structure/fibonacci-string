@@ -65,7 +65,7 @@
     "test": "ava"
   },
   "dependencies": {
-    "@functional-abstraction/predicate": "^3.0.2",
+    "@functional-abstraction/predicate": "^4.0.0",
     "@iterable-iterator/slice": "^0.0.1"
   },
   "devDependencies": {

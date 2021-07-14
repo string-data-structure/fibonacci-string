@@ -1160,10 +1160,10 @@
   resolved "https://registry.yarnpkg.com/@failure-abstraction/error/-/error-5.0.7.tgz#f322a40ee2633b5ce1220671f695f9573faca7d3"
   integrity sha512-aJzkVvXYIqTGoE2aOfWoebajHTAXRb3GDzYlImT/Nrp8AjAsg3jnmkp7N7oqxp0PTKBSBfSsLogLQ/eDBiPE0A==
 
-"@functional-abstraction/predicate@^3.0.2":
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/@functional-abstraction/predicate/-/predicate-3.0.2.tgz#b54022b29c51124a34621b9579635ad0bc463a38"
-  integrity sha512-aQO7fL0myzoUsJzPo2Qeesr10OxRntMBblUuK98PwGqbug/uljjMOKeg+TZOJ9jU0mkbzgjJZzb84gJ8UjOYOg==
+"@functional-abstraction/predicate@^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@functional-abstraction/predicate/-/predicate-4.0.0.tgz#a0a89f570d607fe213e2666826182618026a3c9a"
+  integrity sha512-rWADhlPVxopUyKzv+T7lGmnJBqvIT3Mn2pnrfftE5m8UNDuYiAqO5p/xCsyBcs3a/XLUcXKVugmPowaTpvM4VA==
 
 "@istanbuljs/schema@^0.1.2":
   version "0.1.3"
