@@ -33,8 +33,7 @@ query(Fn, 123456748023490823409283409834802349082340928340983n); // 0n
 [![License](https://img.shields.io/github/license/string-data-structure/fibonacci-string.svg)](https://raw.githubusercontent.com/string-data-structure/fibonacci-string/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@string-data-structure/fibonacci-string.svg)](https://www.npmjs.org/package/@string-data-structure/fibonacci-string)
 [![Tests](https://img.shields.io/github/workflow/status/string-data-structure/fibonacci-string/ci:test?event=push&label=tests)](https://github.com/string-data-structure/fibonacci-string/actions/workflows/ci:test.yml?query=branch:main)
-[![Dependencies](https://img.shields.io/david/string-data-structure/fibonacci-string.svg)](https://david-dm.org/string-data-structure/fibonacci-string)
-[![Dev dependencies](https://img.shields.io/david/dev/string-data-structure/fibonacci-string.svg)](https://david-dm.org/string-data-structure/fibonacci-string?type=dev)
+[![Dependencies](https://img.shields.io/librariesio/github/string-data-structure/fibonacci-string.svg)](https://github.com/string-data-structure/fibonacci-string/network/dependencies)
 [![GitHub issues](https://img.shields.io/github/issues/string-data-structure/fibonacci-string.svg)](https://github.com/string-data-structure/fibonacci-string/issues)
 [![Downloads](https://img.shields.io/npm/dm/@string-data-structure/fibonacci-string.svg)](https://www.npmjs.org/package/@string-data-structure/fibonacci-string)
 
