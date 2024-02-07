@@ -6,7 +6,7 @@ import {map} from '@iterable-iterator/map';
 import {range} from '@iterable-iterator/range';
 import {take} from '@iterable-iterator/slice';
 
-import {query, gen} from '../../src/index.js';
+import {query, gen} from '#module';
 
 // eslint-disable-next-line no-return-assign
 export const iadd = (a, b) => (a += b);

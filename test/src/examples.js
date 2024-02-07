@@ -1,6 +1,6 @@
 import test from 'ava';
 
-import {makeIndex, query} from '../../src/index.js';
+import {makeIndex, query} from '#module';
 
 test('README.md (Number)', (t) => {
 	const F = makeIndex({iadd: (x, y) => x + y, zero: () => 1, one: () => 2}, 10);
