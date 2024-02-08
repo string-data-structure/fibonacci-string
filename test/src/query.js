@@ -3,6 +3,7 @@ import test from 'ava';
 import {enumerate} from '@iterable-iterator/zip';
 
 import {makeSymbol, type, typen, repr} from './_fixtures.js';
+
 import {query, makeIndex} from '#module';
 
 const symbol = makeSymbol({a: 'a', b: 'b'});

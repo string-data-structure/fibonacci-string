@@ -1,5 +1,5 @@
-import {takewhile} from '@iterable-iterator/slice';
 import {le} from '@functional-abstraction/predicate';
+import {takewhile} from '@iterable-iterator/slice';
 
 import gen from './gen.js';
 

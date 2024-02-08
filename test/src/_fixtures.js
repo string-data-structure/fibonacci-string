@@ -1,9 +1,9 @@
 import assert from 'node:assert';
 
-import {nth} from '@iterable-iterator/select';
 import {list} from '@iterable-iterator/list';
 import {map} from '@iterable-iterator/map';
 import {range} from '@iterable-iterator/range';
+import {nth} from '@iterable-iterator/select';
 import {take} from '@iterable-iterator/slice';
 
 import {query, gen} from '#module';
